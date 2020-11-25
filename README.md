@@ -5,11 +5,13 @@ Home: https://www.terraform.io
 
 Package license: MPL-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/terraform-provider-azuread-feedstock/blob/master/LICENSE.txt)
 
 Summary: Terraform provider for Azure Active Directory
 
+Development: https://github.com/terraform-providers/terraform-provider-azuread
 
+Documentation: https://www.terraform.io/docs/providers/azuread/index.html
 
 Current build status
 ====================

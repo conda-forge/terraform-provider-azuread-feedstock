@@ -1,6 +1,6 @@
 {% set provider = "azuread" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "1.5.0" %}
+{% set version = "2.3.0" %}
 
 {% set name = goname.split('/')[-1] %}
 
@@ -54,3 +54,5 @@ extra:
   recipe-maintainers:
     - conda-forge/terraform
     - dhirschfeld
+    - mxr-conda
+    - dsangillo

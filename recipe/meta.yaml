@@ -1,6 +1,6 @@
 {% set provider = "azuread" %}
 {% set goname = "github.com/terraform-providers/terraform-provider-"+provider.lower() %}
-{% set version = "2.3.0" %}
+{% set version = "1.5.1" %}
 
 {% set name = goname.split('/')[-1] %}
 
@@ -20,7 +20,7 @@ source:
 build:
   number: 0
   script:
-    # - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}
+    - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}
 
 requirements:
   build:

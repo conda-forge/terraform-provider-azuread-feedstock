@@ -14,7 +14,8 @@ source:
   url: https://{{ goname }}/archive/v{{ version }}.tar.gz
   # sha256: 6835ae825f86333dea086a511f093a2497218f72f2b6b35a58a8ec147afc5f5d
   # sha256: 6fce0b2cdfba595bee2bb68d0343fb9a7a00232302ae3bee7d23f54de3ee5e4e
-  sha256: 94025d109e9cbbd22f08c969ab10841c30446b76c0d94254d92fc697bb978616
+  # sha256: 94025d109e9cbbd22f08c969ab10841c30446b76c0d94254d92fc697bb978616
+  sha256: 6835ae825f86333dea086a511f093a2497218f72f2b6b35a58a8ec147afc5f5d
   # patches:
     # - test_patch.patch
 

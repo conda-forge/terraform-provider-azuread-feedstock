@@ -12,12 +12,7 @@ package:
 
 source:
   url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-  # sha256: 6835ae825f86333dea086a511f093a2497218f72f2b6b35a58a8ec147afc5f5d
-  # sha256: 6fce0b2cdfba595bee2bb68d0343fb9a7a00232302ae3bee7d23f54de3ee5e4e
-  # sha256: 94025d109e9cbbd22f08c969ab10841c30446b76c0d94254d92fc697bb978616
   sha256: 6835ae825f86333dea086a511f093a2497218f72f2b6b35a58a8ec147afc5f5d
-  # patches:
-    # - test_patch.patch
 
 build:
   number: 0
@@ -37,7 +32,7 @@ test:
     - echo provider "{{ provider|lower }}" { version="{{ version }}" } > init.tf    # [win]
 
     # Initialize
-    # - terraform init
+    - terraform init
 
     # Tests that init was successful
     - test -f .terraform/plugins/{{ target_goos }}_{{ target_goarch }}/lock.json              # [unix]

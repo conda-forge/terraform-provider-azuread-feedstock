@@ -20,7 +20,7 @@ source:
 build:
   number: 0
   script:
-    - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}
+    # - go build -v -o {{ target_gobin }}{{ x4_plugin }}{{ target_goexe }}
 
 requirements:
   build:

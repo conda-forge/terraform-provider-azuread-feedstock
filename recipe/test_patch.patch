@@ -1,0 +1,13 @@
+diff --git a/LICENSE b/LICENSE
+index a612ad98..7b42e003 100644
+--- a/LICENSE
++++ b/LICENSE
+@@ -1,7 +1,7 @@
+ Mozilla Public License Version 2.0
+ ==================================
+
+-1. Definitions
++1. Definition Tests
+ --------------
+
+ 1.1. "Contributor"

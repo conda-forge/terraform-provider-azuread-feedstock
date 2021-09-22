@@ -55,4 +55,3 @@ extra:
     - conda-forge/terraform
     - dhirschfeld
     - mxr-conda
-    - dsangillo

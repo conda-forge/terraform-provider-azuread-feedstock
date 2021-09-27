@@ -154,6 +154,5 @@ Feedstock Maintainers
 
 * [@conda-forge/terraform](https://github.com/conda-forge/terraform/)
 * [@dhirschfeld](https://github.com/dhirschfeld/)
-* [@dsangillo](https://github.com/dsangillo/)
 * [@mxr-conda](https://github.com/mxr-conda/)
 

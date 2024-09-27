@@ -180,7 +180,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/terraform](https://github.com/conda-forge/terraform/)
+* [@conda-forge/terraform](https://github.com/orgs/conda-forge/teams/terraform/)
 * [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@mxr-conda](https://github.com/mxr-conda/)
 
